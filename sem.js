@@ -36,5 +36,5 @@ let Any = "any('john')";
 //console.log(not(is(any('woman'),'beautiful')));
 //any man beat drums
 //console.log(eval(John + Walk + Or + Not + Beat));
-let s = process.argv[2];
+let s = process.argv[2];//node sem "John Walk Not Beat"
 console.log(eval(eval(s.split(' ').map(x=>{return x;}).join('+ And +')))); //+?
