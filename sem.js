@@ -37,4 +37,4 @@ let Any = "any('john')";
 //any man beat drums
 //console.log(eval(John + Walk + Or + Not + Beat));
 let s = process.argv[2];//node sem "John Walk Not Beat"
-console.log(eval(eval(s.split(' ').map(x=>{return x;}).join('+ And +')))); //+?
+console.log(eval(eval(s.split(' ').map(x=>{return x;}).join('+ And +')))); //is('man','john')&&walk(any('man'))&&not(true)&&beat('john','drums')
